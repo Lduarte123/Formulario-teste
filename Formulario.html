@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        form{
+            padding: 10px;
+            background-color: #2F3D6B;
+            width: 300px;
+            margin: auto;
+            text-align: center;
+            
+        }
+        label{
+            color: white;
+            display: block;
+            margin: auto;
+        }
+        input{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        label,input {
+            margin: 5px 0 15px 0;
+        }
+        button{
+            border: none;
+            background-color: #000;
+            color: #fff;
+            padding: 8px 5px;
+            border-radius: 5px;
+            display: block;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body><source>
+    <form action="https://www.google.com/search" method="get"> <!--Armazena o input  --> <!-- Get manda as informaçoes para a url  --> <!--Em post envia o formulario, mas não mostra na url  -->
+        <label for="">Geração Search</label> <!--Dá significado ao input-->
+        <input type="text" name="q"> <!--Ferramenta de entrada de dados-->
+        <button>Enviar</button> <!--Butão  -->
+    </form>
+</body>
+</html>
